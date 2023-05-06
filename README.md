@@ -33,12 +33,12 @@ Criar um banco de dados (eu usei o DBeaver)
 Criando tabela e inserindo pelo proprio sql na tabela.
 
 - > USE bancoDeDadosCriado;
-- > CREATE TABLE familia(nome VARCHAR(50), idade INT(3))
-- > INSERT INTO familia VALUES('pedro', 20)
+- > CREATE TABLE familia(nome VARCHAR(50), tipo varchar(25))
+- > INSERT INTO familia VALUES('pedro', salomé)
 - > SELECT * FROM TABLE familia
 
-JavaScript
+## JavaScript
 
-- Conectar, Ver e Inserir na tabela, arquivo, [db.js](./db.js)
+- Funções para Conectar ao banco; Ver e Inserir na tabela, arquivo: [db.js](./db.js)
 
-- Insirir, dinamicamente por Js, [index.js](./index.js)
+- Insirir, dinamicamente por Js: [index.js](./index.js)
