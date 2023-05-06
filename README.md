@@ -33,9 +33,9 @@ Criar um banco de dados (eu usei o DBeaver)
 Criando tabela e inserindo pelo proprio sql na tabela.
 
 - > USE bancoDeDadosCriado;
-- > CREATE TABLE familia(nome VARCHAR(50), tipo varchar(25))
-- > INSERT INTO familia VALUES('pedro', salomé)
-- > SELECT * FROM TABLE familia
+- > CREATE TABLE familia(nome VARCHAR(50), tipo VARCHAR(25));
+- > INSERT INTO familia VALUES('pedro', salomé);
+- > SELECT * FROM TABLE familia;
 
 ## JavaScript
 
